@@ -31,8 +31,8 @@ h2 {color: #16a085;}
 # Örnek çok şehirli ve çok ürünlü veri seti
 data = {
     "yil": [2024]*4,
-    "sehir": ["Nevşehir","Nevşehir","Konya","Konya","Ankara","Ankara","Kayseri"],
-    "urun": ["Buğday","Patates","Buğday","Patates","Arpa","Nohut"],
+    "sehir": ["Nevşehir","Nevşehir","Konya","Konya"],
+    "urun": ["Buğday","Patates","Buğday","Patates"],
     "sicaklik": [25,25,27,27],
     "yagis": [280,280,300,300],
     "gubre": [120,120,130,130],
@@ -116,3 +116,4 @@ st_folium(m, width=700, height=500)
 with st.expander("Geçmiş Veriler"):
 
     st.dataframe(sehir_urun_veri)
+
